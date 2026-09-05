@@ -15,7 +15,8 @@
 	"vectorize": [
 		{
 			"binding": "VECTORIZE",
-			"index_name": "second-brain-vectors"
+			"index_name": "second-brain-vectors",
+			"remote": true
 		}
 	],
 	"ai": {
@@ -30,7 +31,9 @@
 		"VECTORIZE_GRACE_MS": "300000"
 	},
 	"secrets": {
-		"required": ["AUTH_TOKEN"]
+		"required": [
+			"AUTH_TOKEN"
+		]
 	},
 	"assets": {
 		"directory": "./public"
