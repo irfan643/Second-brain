@@ -7,33 +7,33 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "second-brain-db",
-    },
+      "database_name": "second-brain-db"
+    }
   ],
   "vectorize": [
     {
       "binding": "VECTORIZE",
       "index_name": "second-brain-vectors",
-      "remote": true,
-    },
+      "remote": true
+    }
   ],
   "ai": {
-    "binding": "AI",
+    "binding": "AI"
   },
   "kv_namespaces": [
     {
       "binding": "OAUTH_KV",
-      "id": "55ced0954025437aa2cee971496468fc",
-    },
+      "id": "55ced0954025437aa2cee971496468fc"
+    }
   ],
   "vars": {
-    "VECTORIZE_GRACE_MS": "300000",
+    "VECTORIZE_GRACE_MS": "300000"
   },
   "secrets": {
-    "required": ["AUTH_TOKEN"],
+    "required": ["AUTH_TOKEN"]
   },
   "assets": {
-    "directory": "./public",
+    "directory": "./public"
   },
   // Two schedules, because they are two budgets. A Worker invocation gets 50 D1
   // queries and 10 ms of CPU on the free plan, and the nightly maintenance pass
@@ -61,7 +61,7 @@
       // Day-of-week is "SUN", not "0": Cloudflare's trigger API rejects the
       // numeric form (code 10100: invalid cron string: 15 2 * * 0), confirmed
       // empirically. Do not "tidy" this back to 0.
-      "15 2 * * SUN",
-    ],
-  },
+      "15 2 * * SUN"
+    ]
+  }
 }
