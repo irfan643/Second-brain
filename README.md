@@ -5,7 +5,7 @@
 **One shared memory for Claude, ChatGPT, Cursor, Codex, and every other AI tool you use.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Built with Cloudflare Workers](https://img.shields.io/badge/Built%20with-Cloudflare%20Workers-F38020?logo=cloudflare\&logoColor=white)](https://workers.cloudflare.com/)
+[![Built with Cloudflare Workers](https://img.shields.io/badge/Built%20with-Cloudflare%20Workers-F38020?logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-8B5CF6)](https://modelcontextprotocol.io/)
 [![MCP Toplist](https://mcptoplist.com/badge/glama%2Frahilp%2Fsecond-brain-cloudflare.svg)](https://mcptoplist.com/server/glama%2Frahilp%2Fsecond-brain-cloudflare)
 
@@ -27,49 +27,49 @@ Prefer to run it yourself? Use the one-click **[Deploy to Cloudflare](https://de
 
 ## What's new in v2.3
 
-* **A home screen instead of an empty search box.** Open the dashboard and it shows what your brain has been doing: what arrived in the last 48 hours and where it came from, a two-week activity strip, the topics you have been writing about, and one older memory worth re-reading. On a quiet day it says almost nothing rather than inventing news.
+- **A home screen instead of an empty search box.** Open the dashboard and it shows what your brain has been doing: what arrived in the last 48 hours and where it came from, a two-week activity strip, the topics you have been writing about, and one older memory worth re-reading. On a quiet day it says almost nothing rather than inventing news.
 
-* **Insights.** Once a week your Second Brain reads two of your own memories written at least a month apart and tells you what changed between them, what they conflict on, or what connects them — one or two sentences, at most three a week, and often none at all. Confirm one and it becomes a memory you can search; dismiss it and it is gone. Nothing enters recall until you have ruled on it.
+- **Insights.** Once a week your Second Brain reads two of your own memories written at least a month apart and tells you what changed between them, what they conflict on, or what connects them — one or two sentences, at most three a week, and often none at all. Confirm one and it becomes a memory you can search; dismiss it and it is gone. Nothing enters recall until you have ruled on it.
 
-* **A graph you can read.** Memories cluster by what they are actually about, and a memory without tags is placed by the company it keeps rather than dumped in an "Other" ring. The brain's own housekeeping notes are no longer drawn as if they were your memories, and the legend and labels fit a phone screen.
+- **A graph you can read.** Memories cluster by what they are actually about, and a memory without tags is placed by the company it keeps rather than dumped in an "Other" ring. The brain's own housekeeping notes are no longer drawn as if they were your memories, and the legend and labels fit a phone screen.
 
-* **Memories explain themselves.** Opening a memory shows what the brain makes of it in plain language — how important it is, how often it has been recalled, whether it is current or has been superseded, and whether search can see it at all. Answers cite their sources, with dates.
+- **Memories explain themselves.** Opening a memory shows what the brain makes of it in plain language — how important it is, how often it has been recalled, whether it is current or has been superseded, and whether search can see it at all. Answers cite their sources, with dates.
 
-* **The dashboard keeps itself current.** Four destinations became two: Home, and Memories with a list/graph toggle that remembers your choice. A refresh control sits in the sidebar, and editing or deleting a memory no longer leaves stale numbers on screen.
+- **The dashboard keeps itself current.** Four destinations became two: Home, and Memories with a list/graph toggle that remembers your choice. A refresh control sits in the sidebar, and editing or deleting a memory no longers leaves stale numbers on screen.
 
-* **More AI models to choose from**, including larger reasoning models. Insight writing has its own model setting, separate from everything else, under **Advanced Settings → AI**.
+- **More AI models to choose from**, including larger reasoning models. Insight writing has its own model setting, separate from everything else, under **Advanced Settings → AI**.
 
-* **The dashboard now speaks Italian**, alongside the native Mac and Windows menus added in v2.2.
+- **The dashboard now speaks Italian**, alongside the native Mac and Windows menus added in v2.2.
 
 ## What's new in v2.2
 
-* **Advanced Settings.** Seven plain-language controls for how your Second Brain remembers and recalls — how much recent memories outrank old ones, how varied results are, how far to follow connections, how much detail comes back, how strictly duplicates are blocked, how aggressively old memories are compressed, and which AI model does the thinking. Open it with ⌘, in the desktop app. Changes apply to your next search, with no redeploy.
+- **Advanced Settings.** Seven plain-language controls for how your Second Brain remembers and recalls — how much recent memories outrank old ones, how varied results are, how far to follow connections, how much detail comes back, how strictly duplicates are blocked, how aggressively old memories are compressed, and which AI model does the thinking. Open it with ⌘, in the desktop app. Changes apply to your next search, with no redeploy.
 
-* **Change how your memories are read.** Pick a finer reading for more precise matching, and the app rebuilds your search data for you — resumable if your daily AI allowance runs out, and reversible until the final step. Your memories themselves are never touched.
+- **Change how your memories are read.** Pick a finer reading for more precise matching, and the app rebuilds your search data for you — resumable if your daily AI allowance runs out, and reversible until the final step. Your memories themselves are never touched.
 
-* **Back up and restore.** Save everything as JSON from the dashboard menu, and restore it there too. A restore runs in the open — it shows what has gone back so far, never duplicates anything if you retry the same file, and finishes by making the restored memories searchable again, spending your daily AI allowance only when you say so.
+- **Back up and restore.** Save everything as JSON from the dashboard menu, and restore it there too. A restore runs in the open — it shows what has gone back so far, never duplicates anything if you retry the same file, and finishes by making the restored memories searchable again, spending your daily AI allowance only when you say so.
 
-* **Lost your password?** The unlock screen is no longer a dead end. Sign in to Cloudflare and set a new one. You can also change your password deliberately from Connections, and disconnect every AI tool in one step.
+- **Lost your password?** The unlock screen is no longer a dead end. Sign in to Cloudflare and set a new one. You can also change your password deliberately from Connections, and disconnect every AI tool in one step.
 
-* **Find a brain you already have.** Setting up on a new computer? Sign in to Cloudflare and the app finds your Second Brain — identified from your account's own records, not by asking the Worker. Typing the address yourself still works exactly as before.
+- **Find a brain you already have.** Setting up on a new computer? Sign in to Cloudflare and the app finds your Second Brain — identified from your account's own records, not by asking the Worker. Typing the address yourself still works exactly as before.
 
-* **Now in Italian**, with native menus on Mac and Windows, and a download button in the dashboard sidebar.
+- **Now in Italian**, with native menus on Mac and Windows, and a download button in the dashboard sidebar.
 
 ## What's new in v2.1
 
-* **Calendar sync.** Connect Google, Outlook, or iCloud calendars from **Settings → Integrations** by pasting your calendar's private iCal (`.ics`) link — no OAuth, no developer setup. Upcoming events sync into memory and stay current, so recall knows what's on your plate; past events are kept as a bounded history.
+- **Calendar sync.** Connect Google, Outlook, or iCloud calendars from **Settings → Integrations** by pasting your calendar's private iCal (`.ics`) link — no OAuth, no developer setup. Upcoming events sync into memory and stay current, so recall knows what's on your plate; past events are kept as a bounded history.
 
-* **Email capture.** Connect Gmail or iCloud with an app password from **Settings → Integrations**, and Second Brain captures the meaningful mail from your inbox — automatically filtering out newsletters, marketing, receipts, and other automated noise — so real correspondence surfaces in recall.
+- **Email capture.** Connect Gmail or iCloud with an app password from **Settings → Integrations**, and Second Brain captures the meaningful mail from your inbox — automatically filtering out newsletters, marketing, receipts, and other automated noise — so real correspondence surfaces in recall.
 
-* **Integrations, organized.** The Integrations screen now groups connections into **Knowledge**, **Calendars**, and **Email**, so it stays easy to navigate as more are added. Synced items are classified like anything else you save.
+- **Integrations, organized.** The Integrations screen now groups connections into **Knowledge**, **Calendars**, and **Email**, so it stays easy to navigate as more are added. Synced items are classified like anything else you save.
 
 ## What's new in v2
 
-* **Memory graph.** Memories now connect to each other — automatically as you save, or explicitly with the new `link` and `connections` tools. Recall can follow those connections (the `hops` option) to surface related context that a plain search would miss, and the dashboard has a new **Graph** tab to explore your memory visually.
+- **Memory graph.** Memories now connect to each other — automatically as you save, or explicitly with the new `link` and `connections` tools. Recall can follow those connections (the `hops` option) to surface related context that a plain search would miss, and the dashboard has a new **Graph** tab to explore your memory visually.
 
-* **Notion sync.** Connect your Notion workspace from **Settings → Integrations** in the dashboard. Pages you share with the connection sync into memory, stay updated as they change in Notion, and surface in recall alongside everything else. Automatic hourly sync, or on demand with **Sync now**.
+- **Notion sync.** Connect your Notion workspace from **Settings → Integrations** in the dashboard. Pages you share with the connection sync into memory, stay updated as they change in Notion, and surface in recall alongside everything else. Automatic hourly sync, or on demand with **Sync now**.
 
-* **Graceful degradation.** If the Vectorize index is missing, the whole brain keeps working keyword-only: recall falls back to keyword search with a clear notice, and captures, appends and updates are still committed rather than rejected. A `/health` endpoint reports index status, and the dashboard shows a banner with the exact fix.
+- **Graceful degradation.** If the Vectorize index is missing, the whole brain keeps working keyword-only: recall falls back to keyword search with a clear notice, and captures, appends and updates are still committed rather than rejected. A `/health` endpoint reports index status, and the dashboard shows a banner with the exact fix.
 
 ## See it in action
 
@@ -102,27 +102,27 @@ can surface the correct memory even when the original note used completely diffe
 
 Memory is most useful when capturing information is easy. Second Brain connects to the tools and moments where context already exists.
 
-* **AI clients:** Use `remember` directly within Claude, ChatGPT, Cursor, Codex, and other MCP clients.
+- **AI clients:** Use `remember` directly within Claude, ChatGPT, Cursor, Codex, and other MCP clients.
 
-* **Command line:** Run `brain remember`, `brain recall`, and other commands from your terminal.
+- **Command line:** Run `brain remember`, `brain recall`, and other commands from your terminal.
 
   ```bash
   npm install -g second-brain-cf-cli
   ```
 
-* **Notion:** Connect your Notion workspace from **Settings → Integrations** in the web dashboard. Create an internal **connection** in the [Notion developer portal](https://app.notion.com/developers/connections) (a connection, not a personal access token — only connections appear in a page's Connections menu), share the pages you want remembered with it, and paste its secret — shared pages sync into memory automatically (hourly, or on demand with **Sync now**) and stay updated as they change in Notion.
+- **Notion:** Connect your Notion workspace from **Settings → Integrations** in the web dashboard. Create an internal **connection** in the [Notion developer portal](https://app.notion.com/developers/connections) (a connection, not a personal access token — only connections appear in a page's Connections menu), share the pages you want remembered with it, and paste its secret — shared pages sync into memory automatically (hourly, or on demand with **Sync now**) and stay updated as they change in Notion.
 
-* **Calendar:** Connect Google, Outlook, or iCloud from **Settings → Integrations** and paste your calendar's private **iCal (`.ics`) link** (Google: *your calendar → Integrate calendar → "Secret address in iCal format"*; Outlook: *Calendar → Shared calendars → Publish*; iCloud: *Share Calendar → Public Calendar*). Read-only — upcoming events sync into memory automatically (hourly, or on demand with **Sync now**), and past events are kept as a bounded history.
+- **Calendar:** Connect Google, Outlook, or iCloud from **Settings → Integrations** and paste your calendar's private **iCal (`.ics`) link** (Google: _your calendar → Integrate calendar → "Secret address in iCal format"_; Outlook: _Calendar → Shared calendars → Publish_; iCloud: _Share Calendar → Public Calendar_). Read-only — upcoming events sync into memory automatically (hourly, or on demand with **Sync now**), and past events are kept as a bounded history.
 
-* **Email:** Connect Gmail or iCloud from **Settings → Integrations** with an **app password** (Google: *Account → Security → App passwords*; iCloud: *appleid.apple.com → App-Specific Passwords*). Read-only — meaningful messages are captured into memory, while newsletters, marketing, receipts, and other automated mail are filtered out.
+- **Email:** Connect Gmail or iCloud from **Settings → Integrations** with an **app password** (Google: _Account → Security → App passwords_; iCloud: _appleid.apple.com → App-Specific Passwords_). Read-only — meaningful messages are captured into memory, while newsletters, marketing, receipts, and other automated mail are filtered out.
 
-* **Obsidian:** Automatically sync notes using the [Second Brain Sync plugin](https://github.com/rahilp/second-brain-obsidian-plugin), also available through [Obsidian Community Plugins](https://community.obsidian.md/plugins/second-brain-sync).
+- **Obsidian:** Automatically sync notes using the [Second Brain Sync plugin](https://github.com/rahilp/second-brain-obsidian-plugin), also available through [Obsidian Community Plugins](https://community.obsidian.md/plugins/second-brain-sync).
 
-* **Browser extension:** Capture a page or highlighted text using the [Chrome extension](https://github.com/rahilp/second-brain-browser-extension).
+- **Browser extension:** Capture a page or highlighted text using the [Chrome extension](https://github.com/rahilp/second-brain-browser-extension).
 
-* **iPhone and iPad:** Use the Brain Dump, Text Brain Dump, and Save to Brain shortcuts in [`integrations/ios-shortcuts/`](integrations/ios-shortcuts/).
+- **iPhone and iPad:** Use the Brain Dump, Text Brain Dump, and Save to Brain shortcuts in [`integrations/ios-shortcuts/`](integrations/ios-shortcuts/).
 
-* **Bookmarklet:** Use the lightweight bookmarklet in [`integrations/bookmarklet.js`](integrations/bookmarklet.js).
+- **Bookmarklet:** Use the lightweight bookmarklet in [`integrations/bookmarklet.js`](integrations/bookmarklet.js).
 
 ## Quick Start
 
@@ -148,8 +148,8 @@ Your `AUTH_TOKEN` is the password used to access your Second Brain. It is the sa
 
 Use either:
 
-* A memorable phrase, such as `coffee-lover-2026`
-* A randomly generated token:
+- A memorable phrase, such as `coffee-lover-2026`
+- A randomly generated token:
 
   ```bash
   openssl rand -base64 32
@@ -228,7 +228,7 @@ curl -X POST https://YOUR-WORKER-URL/capture \
 A successful response will look like:
 
 ```json
-{"ok":true,"id":"..."}
+{ "ok": true, "id": "..." }
 ```
 
 **Bulk migration:** export with `GET /export`, restore with `POST /import` (same JSON shape, `version: 2`). Imports are paged: each call handles `?limit=` array positions (default 40, sized for the D1 free plan) starting at `?offset=` — resend the same file with the `next_offset` (and, once entries are done, `next_edge_offset`) from the previous response until both `remaining` counts are `0`, then backfill embeddings via `POST /vectorize-pending` until `remaining` is `0`.
@@ -256,11 +256,11 @@ This means your authentication token does not need to be placed in the client co
 
 The following clients support this flow:
 
-* ChatGPT
-* Claude.ai
-* Claude Code
-* Codex CLI
-* Cursor
+- ChatGPT
+- Claude.ai
+- Claude Code
+- Codex CLI
+- Cursor
 
 You can also configure supported command-line clients manually:
 
@@ -297,9 +297,9 @@ Opera may treat `gmail-com` in the hostname as a fake Gmail site and block the O
 
 **Quick workarounds**
 
-* Click **Ignore** on Opera’s warning page, then enter your `AUTH_TOKEN` on the Second Brain sign-in page.
-* Use another browser (Chrome, Edge, Firefox) as your system default, or open the auth link there.
-* In Cursor: remove the MCP server, add it again, then click **Connect**.
+- Click **Ignore** on Opera’s warning page, then enter your `AUTH_TOKEN` on the Second Brain sign-in page.
+- Use another browser (Chrome, Edge, Firefox) as your system default, or open the auth link there.
+- In Cursor: remove the MCP server, add it again, then click **Connect**.
 
 **Permanent fix — change your `workers.dev` subdomain**
 
@@ -346,25 +346,25 @@ npm run deploy
 
 ## Documentation
 
-* [Setup Guide](../../wiki/Setup-Guide): Deploy the Worker, configure authentication, and connect AI clients
-* [How It Works](../../wiki/How-It-Works): Semantic search, chunking, memory classification, and duplicate detection
-* [Connect to AI Clients](../../wiki/Connect-to-AI-Clients): ChatGPT, Claude, Claude Code, Codex, and other MCP clients
-* [Capture from Anywhere](../../wiki/Capture-from-Anywhere): Browser extension, bookmarklet, iOS Shortcuts, and share sheet
-* [Web UI](../../wiki/Web-UI): Dashboard and mobile interface
-* [Obsidian Plugin](../../wiki/Obsidian-Plugin): Installation, configuration, and sync modes
-* [API Reference](../../wiki/API-Reference): REST and MCP endpoints
+- [Setup Guide](../../wiki/Setup-Guide): Deploy the Worker, configure authentication, and connect AI clients
+- [How It Works](../../wiki/How-It-Works): Semantic search, chunking, memory classification, and duplicate detection
+- [Connect to AI Clients](../../wiki/Connect-to-AI-Clients): ChatGPT, Claude, Claude Code, Codex, and other MCP clients
+- [Capture from Anywhere](../../wiki/Capture-from-Anywhere): Browser extension, bookmarklet, iOS Shortcuts, and share sheet
+- [Web UI](../../wiki/Web-UI): Dashboard and mobile interface
+- [Obsidian Plugin](../../wiki/Obsidian-Plugin): Installation, configuration, and sync modes
+- [API Reference](../../wiki/API-Reference): REST and MCP endpoints
 
 ## Technology
 
 Second Brain is built with:
 
-* Cloudflare Workers
-* D1 SQLite
-* Cloudflare Vectorize
-* Workers AI
-* Cloudflare KV
-* Model Context Protocol
-* TypeScript
+- Cloudflare Workers
+- D1 SQLite
+- Cloudflare Vectorize
+- Workers AI
+- Cloudflare KV
+- Model Context Protocol
+- TypeScript
 
 It runs within Cloudflare's free tier at personal scale.
 
@@ -378,15 +378,15 @@ Free code signing provided by [SignPath.io](https://signpath.io), certificate by
 
 **Team and roles:**
 
-| Role | Members |
-| --- | --- |
-| Authors | [Rahil P (@rahilp)](https://github.com/rahilp) |
+| Role      | Members                                        |
+| --------- | ---------------------------------------------- |
+| Authors   | [Rahil P (@rahilp)](https://github.com/rahilp) |
 | Reviewers | [Rahil P (@rahilp)](https://github.com/rahilp) |
 | Approvers | [Rahil P (@rahilp)](https://github.com/rahilp) |
 
 All release binaries are built from this repository's source by GitHub Actions ([installer-release.yml](.github/workflows/installer-release.yml)). Every signing request is reviewed and manually approved by an approver before a signed release is published.
 
-**Privacy statement:** This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it. Second Brain is self-hosted by design: during setup the desktop app talks to Cloudflare only to create resources inside *your own* Cloudflare account, and afterwards it communicates exclusively with your own private Second Brain. Your memories and credentials are never sent to the project maintainers or any other third party.
+**Privacy statement:** This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it. Second Brain is self-hosted by design: during setup the desktop app talks to Cloudflare only to create resources inside _your own_ Cloudflare account, and afterwards it communicates exclusively with your own private Second Brain. Your memories and credentials are never sent to the project maintainers or any other third party.
 
 ## Star History
 
